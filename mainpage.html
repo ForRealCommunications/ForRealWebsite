@@ -7,16 +7,31 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" 
         rel="stylesheet">
+        <link rel="stylesheet" href="mainpage_styles.css">
     </head>
     <body>
         <!--Navigation System - Ensure it's the same in all Pages-->
-        <nav class="Navigation-bar">
+        <nav class="Navigation-bar" style="border: 1px, solid, #1b3bd9; 
+        border-top: #b1d7ed; border-left: #b1d7ed; border-right: #b1d7ed;">
             <div >
-                <img src="">
+                <!--Header Logo (Clickable to go Home)-->
+                <a href="mainpage.html">
+                    <img src="sources/images/blue-small-logo.png" style="height: 80px; padding-left: 1%;">
+                </a>
+                <a>
+                    <p class="link-font">About Us</p>
+                </a>
+                <a>
+                    <p class="link-font" style="padding-left: 35%;">Our Clients</p>
+                </a>
+                <a href="teampage.html">
+                    <p class="link-font" style="padding-left: 60%;">Our Team</p>
+                </a>
             </div>
         </nav>
+
         <!-- Glitchy Section-->
-        <section>
+        <section Start Section>
         <div class="Starting-head">
             <div class="container">
                 <div class="image-text" style="position: relative; top: 150px;">
@@ -101,43 +116,71 @@
             </section>
         </section>
 
-        <!--Sections 2 - CHANGE HEIGHT WHEN FINISHED-->
+        <!--Sections 2-->
+        <section Why For Real>
         <div style="height: 60vw;">
             <div class="container">
                 <div class="image-text">
                     <p class="Subtitle" style="font-size: 6vw; color: #1b3bd9; 
                 width: 95%; text-align: center; display: block; padding-bottom: 1vw; padding-top: 10dvw;">Why For Real?</p>
                 </div>
-                <div style="background-color: #b1d7ed; height: 80px; width: 70%; position: relative; margin-left: 14dvw; margin-right: 14dvw;
-                    text-align: center; padding-bottom: 5.5vw;">
-                    <p class = "Subtitle" style="font-size: 3.5vw; color:#f4f4f4;
-                    width: 100%; text-align: center; display: block; padding-bottom: 1vw;"> For Experience. For Change. For Real.</p>
+                <div style="background-color: #b1d7ed; height: 0 auto; width: 70%; 
+                    position: relative; margin-left: 14dvw; margin-right: 14dvw; 
+                    text-align: center; padding: 2dvw;">
+                    <Div style="position: relative; margin-top: 2dvw; margin-bottom: 2dvw; 
+                    text-align: center; padding-left: 2dvw; padding-right: 2dvw;">
+                    <p class = "Subtitle" style="font-size: 3.5vw; color:black; width: 100%; 
+                        display: block; padding-bottom: 1vw;"> At For Real Communications, fresh thinking isn’t a promise, 
+                        it’s built into who we are. 100% student-run means we’re always evolving; new people, new energy, 
+                        new ideas, on repeat. </p>
+                    <p class="Subtitle" style="font-size: 3.5vw; color:black; width: 100%; text-align: center; 
+                        display: block; padding-bottom: 1vw;">With our finger firmly on the pulse, we create campaigns 
+                        that stop the scroll, stand out, and stay with you. </p>
+                    <p class="Subtitle" style="font-size: 3.5vw; color:black; width: 100%; text-align: center; 
+                        display: block; padding-bottom: 1vw;">Now that’s For Real</p>
+                    </Div>
                 </div>
             </div>
         </div>
+        </section>
+
         <!--section 3 ()-->
-        <div style="height: 2000px;">
-            <div style="display: flex; flex-direction: row; align-items: center;">
+        <div style="height: 60vw;">
+            <div clas="container">
                 <!--why choose us?-->
-                <p class="Subtitle" style="position:relative; font-size: 5vw; color:#1b3bd9; top: 310%;
-                width: 95%; text-align: center; display: block; padding-bottom: 1vw;">Why Choose Us?</p>
+                <div class="image-text">
+                    <p class="Subtitle" style="position:relative; font-size: 6vw; color:#1b3bd9;
+                width: 95%; top: 40dvw">Our Services</p>
+                </div>
+                <div style="display: inline; padding-left: 2.5dvw; padding-right: 2.5dvw;">
+                    <div>
+                        <div class="Service-boxes" style="left: 3%">
+                        <p class="Box-font">Social Media Management</p>
+                        </div>
+                        <div class="glitch-red" style="top: 233.5dvw; left: 6.5dvw;"></div>
+                        <div class="glitch-blue" style="top: 231.5dvw; left: 4dvw;"></div>
+                    </div>
+                    <div>
+                        <div class="Service-boxes" style="left: 35%;">
+                        <p class="Box-font">Event Planner and Management</p>
+                        </div>
+                        <div class="glitch-red" style="top: 233.5dvw; left: 38.5dvw;"></div>
+                        <div class="glitch-blue" style="top: 231.5dvw; left: 35.5dvw;"></div>
+                    </div>
+                    <div>
+                        <div class="Service-boxes" style="left: 67%;">
+                        <p class="Box-font">Website Management and Design</p>
+                        </div>
+                        <div class="glitch-red" style="top: 233.5dvw; left: 69.5dvw;"></div>
+                        <div class="glitch-blue" style="top: 231.5dvw; left: 67dvw;"></div>
+                    </div>
+                </div>
             </div>
-            <div style="display:flex; flex-direction: column; align-items: center;">
-                <a href="teampage.html">
-                <button class="button button1">Learn More About Us</button>
-                </a>
-            </div>
+
         </div>
-        <!--Section 4-->
-        <div style="height: 2000px;">
-            <div style="display: flex; flex-direction: row; align-items: center;">
-              <!--Title-->
-              <!--image-->
-              <!--meet our team/join our team-->
-            </div>
-        </div>
+
         <!--Contact Us-->
-        <div style="height: 2000px;">
+        <div style="height: 80dvw;">
             <div style="display: flex; flex-direction: row; align-items: center;">
             </div>
         </div>
@@ -216,83 +259,5 @@
         </div>
     </footer>
 
+
 <html>
-
-
-
-
-<!--Changes the apperance of Asssets-->
-<style>
-    html{
-        background-color: #f4f4f4;
-    }
-
-    .container{
-        width: 100%;
-    }
-
-    .image-text{
-        width: 100%;
-        text-align: center;
-        margin: 0 1.5%;
-    }
-
-    .image-text image{
-        width: 100%;
-        height: 80px; 
-    }
-
-    .Navigation-bar{
-        position: sticky;
-        z-index: 1000;
-        overflow: hidden;
-        top: 0%; 
-        height: 75px;
-        background-color: #b1d7ed;
-        display: block;
-        text-decoration: none;
-    }
-    
-    .Starting-head{
-        position: static;
-        height: 80dvw;
-        background-color: #1b3bd9;
-    }
-
-    .Footer-body{
-        position: static;
-        height: 14dvw;
-        background-color: #1b3bd9;
-    }
-
-    .Subtitle{
-        font-family: "Host Grotesk";
-        font-weight: bold;
-    }
-
-    .glitchbrick{
-        position: relative;
-        background-color: #1b3bd9;
-        display: inline-block;
-        vertical-align: top;
-        margin: 0;
-        padding: 0;        
-    }
-
-    .glitchbrick-floating{
-        position: relative;
-        background-color: #1b3bd9;
-        display: inline-block;
-        vertical-align: top;
-        margin: 1%;
-        padding: 1%;        
-    }
-
-    html, body {
-    margin: 0;
-    padding: 0;
-    }   
-
-
-
-</style>
