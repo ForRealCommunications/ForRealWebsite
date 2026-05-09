@@ -8,7 +8,7 @@
     }
 
     .image-text{
-        width: 100%;
+        width: 97%;
         text-align: center;
         margin: 0 1.5%;
     }
@@ -48,13 +48,17 @@
 
     .Footer-body{
         position: static;
-        height: 14dvw;
+        height: 30dvw;
         background-color: #1b3bd9;
     }
 
     .Subtitle{
         font-family: "Host Grotesk";
         font-weight: bold;
+    }
+
+    .normal-text{
+        font-family: 'Space Grotesk';
     }
 
     .glitchbrick{
@@ -82,8 +86,8 @@
         padding-right: 3%;
         margin: 2.5%;
         width: 20%;
-        height: 40dvw;
-        top: 230dvw;
+        height: 40vw;
+        top: 230vw;
     }
 
     .Box-font{
@@ -115,6 +119,12 @@
         width: 20%;
         height: 40dvw;
         left: 1.5dvw;
+    }
+
+
+    .contact-button{
+        background-color: #b1d7ed;
+        color: #1b3bd9;
     }
 
     html, body {
