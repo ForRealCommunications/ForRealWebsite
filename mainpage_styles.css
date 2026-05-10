@@ -79,48 +79,85 @@
         padding: 1%;        
     }
 
-    .Service-boxes{
-        position: absolute;
-        background-color: #1b3bd9;
-        padding-left: 3%;
-        padding-right: 3%;
-        margin: 2.5%;
-        width: 20%;
-        height: 40vw;
-        top: 230vw;
+    .services-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+
+        gap: 4vw;
+
+        flex-wrap: nowrap;
+
+        width: 100%;
+
+        margin-top: 5vw;
+        margin-bottom: 10vw;
     }
 
-    .Box-font{
-        font-family: 'Space Grotesk';
-        font-size: 3dvw;
-        text-align: center;
+    .service-card{
         position: relative;
-        color: #f4f4f4;
-        top: 35%;
+        display: inline-block;
+
+        width: 25%;
+        height: 40vw;
+
+        margin: 3%;
+    }
+
+    .Service-boxes{
+        position: relative;
+
+        background-color: #1b3bd9;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        z-index: 10;
+        box-sizing: border-box;
+
+        padding: 2vw;
     }
 
     .glitch-red{
         position: absolute;
+
+        width: 100%;
+        height: 100%;
+
         background-color: red;
-        padding-left: 3%;
-        padding-right: 3%;
-        z-index: -10;
-        width: 20%;
-        height: 40dvw;
-        left: 1.5dvw;
+
+        top: 12px;
+        left: 12px;
+
+        z-index: 1;
     }
 
     .glitch-blue{
         position: absolute;
+
+        width: 100%;
+        height: 100%;
+
         background-color: lightblue;
-        padding-left: 3%;
-        padding-right: 3%;
-        z-index: -10;
-        width: 20%;
-        height: 40dvw;
-        left: 1.5dvw;
+
+        top: -12px;
+        left: -12px;
+
+        z-index: 0;
     }
 
+    .Box-font{
+        font-family: 'Space Grotesk';
+        font-size: 3vw;
+        text-align: center;
+        position: relative;
+        color: #f4f4f4;
+    }
 
     .contact-button{
         background-color: #b1d7ed;
