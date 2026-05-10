@@ -32,23 +32,39 @@
     .link-font{
         color: black;
         display: inline-block; 
-        position: absolute; 
-        padding: 1dvw;
-        padding-left: 15%; 
+        padding: 1vw;
         font-family: 'Host Grotesk'; 
-        font-size: 20px;
+        font-size: 3vw;
         font-weight: bold;
+        position: absolute;
+        align-items: center; 
     }
     
+.nav-container{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2%;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+}
+
     .Starting-head{
         position: static;
         height: 80dvw;
         background-color: #1b3bd9;
+
     }
 
     .Footer-body{
         position: static;
-        height: 30dvw;
         background-color: #1b3bd9;
     }
 
@@ -176,6 +192,14 @@
 
         flex-shrink: 0;
         animation: blinkeffect 10s infinite alternate;
+    }
+
+    .logo-image{
+        display: inline-block;
+        width: 8vw;
+        height: 8vw;
+
+        margin: 1vw;
     }
 
     .watermark-container{

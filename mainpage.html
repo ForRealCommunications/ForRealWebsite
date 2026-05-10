@@ -14,21 +14,18 @@
         <!--Navigation System - Ensure it's the same in all Pages-->
         <nav class="Navigation-bar" style="border: 1px, solid, #1b3bd9; 
         border-top: #b1d7ed; border-left: #b1d7ed; border-right: #b1d7ed;">
-            <div >
+            <div class="nav-container"> 
                 <!--Header Logo (Clickable to go Home)-->
                 <a href="mainpage.html">
                     <img src="sources/images/blue-small-logo.png" style="height: 80px; padding-left: 1%;">
                 </a>
-                <a>
-                    <p class="link-font">About Us</p>
-                </a>
-                <a>
-                    <p class="link-font" style="padding-left: 35%;">Our Clients</p>
-                </a>
-                <a href="teampage.html">
-                    <p class="link-font" style="padding-left: 60%;">Our Team</p>
-                </a>
-            </div>
+                <div class="nav-links">
+                    <a class="link-font" style="left: 27%" href="aboutus_page.html">About Us</a>
+                    <a class="link-font" style="left: 45%" href="client_page.html">Our Clients</a>
+                    <a class="link-font" style="left: 67%" href="teampage.html">Our Team</a>
+                </div>
+                <!--Other links-->
+            </div>   
         </nav>
 
         <!-- Glitchy Section-->
@@ -179,7 +176,8 @@
         <div>
             <div class="container">
                 <div class="image-text">
-                    <p class="Subtitle" style="position:relative; font-size: 6vw; color:#1b3bd9;">Our Services</p>
+                    <p class="Subtitle" style="position:relative; 
+                    font-size: 6vw; color:#1b3bd9;">Our Services</p>
                 </div>
             </div>
             <div class="services-wrapper">
@@ -205,6 +203,7 @@
                 </div>
             </div>
         </div>
+        </div>
         
         <!--Contact Us-->
         <div class="container" style="padding-bottom: 15%;">
@@ -220,7 +219,7 @@
         </div>
 
     <footer>
-                <div>
+        <div>
             <div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%">
             </div><div class="glitchbrick-floating" style="width: 4.5%; height: 4.5%; background-color: #f4f4f4;">
             </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;">
@@ -248,9 +247,9 @@
             </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;background-color: #f4f4f4;">
             </div><div class="glitchbrick-floating" style="width: 0.5%; height: 0.5%;">
             </div><div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%;background-color: #f4f4f4;">
-            </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;">
+            </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;"></div>
         </div>
-                <div>
+        <div>
             <div class="glitchbrick" style="width: 3.5%; height: 22px; vertical-align: bottom;">
             </div><div class="glitchbrick" style="width: 4.5%; height: 13px;vertical-align: bottom;">
             </div><div class="glitchbrick" style="width: 2.5%; height: 16px;vertical-align: bottom;">
@@ -287,7 +286,31 @@
             </div><div class="glitchbrick" style="width: 3.5%; height: 10px;vertical-align: bottom;">
             </div>
         </div>
-        <div class="Footer-body">
+        <div class="Footer-body" style="padding-top: 5vw; 
+            padding-bottom: 2vw; align-content: center;">
+            <p class="Subtitle" style="color: #f4f4f4; 
+            padding: 0; margin: 0; padding-left: 1%; padding-top: 3%; 
+            font-size: 4vw; display: inline-block;">Contact Us</p>
+            <div style="display: inline-block; padding-left: 2%; vertical-align: top;">
+                <img class="logo-image" src="sources/images/facebook-logo.png" >
+                <a href="https://www.instagram.com/forreal_comms/" target="_blank">
+                    <img class="logo-image" src="sources/images/instagram-logo.png">
+                </a>
+                <a href="https://www.tiktok.com/@forreal_comms" target="_blank">
+                    <img class="logo-image" src="sources/images/tiktok logo.png">
+                </a>
+                <a href="https://www.linkedin.com/company/for-real-communications/" target="_blank">
+                    <img class="logo-image" src="sources/images/linkedin-logo.png">
+                </a>
+            </div>
+            <p class="normal-text" style="display: inline-block; 
+                font-size: 4vw; color: #f4f4f4; margin: 0; padding: 0;
+                padding-left: 1%;">
+                Email: forrealcomms@gmail.com</p>
+            <div>
+                <p class="normal-text" style="text-align: center;
+                 padding-top: 5%; color: #f4f4f4;">Founded in 2025</p>
+            </div>
         </div>
     </footer>
 
