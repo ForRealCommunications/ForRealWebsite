@@ -7,33 +7,45 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" 
         rel="stylesheet">
+        <link rel="stylesheet" href="teampage_styles.css">
+        <link rel="stylesheet" href="mainpage_styles.css">
     </head>
     <body>
         <!--Navigation System - Ensure it's the same in all Pages-->
-        <div class="Navigation-bar">
-            <!--LOGO-->
-            <!--ABOUT US-->
-            <!--OUR TEAM-->
-            <!--JOIN US-->
-        </div>
+        <nav class="Navigation-bar" style="border: 1px, solid, #1b3bd9; 
+        border-top: #b1d7ed; border-left: #b1d7ed; border-right: #b1d7ed;">
+            <div class="nav-container"> 
+                <!--Header Logo (Clickable to go Home)-->
+                <a href="mainpage.html">
+                    <img src="sources/images/blue-small-logo.png" style="height: 80px; padding-left: 1%;">
+                </a>
+                <div class="nav-links">
+                    <a class="link-font" style="left: 27%" href="aboutus_page.html">About Us</a>
+                    <a class="link-font" style="left: 45%" href="client_page.html">Our Clients</a>
+                    <a class="link-font" style="left: 67%" href="teampage.html">Our Team</a>
+                </div>
+                <!--Other links-->
+            </div>   
+        </nav>
         <!--Section 1-->
-        <div style="height:550px;">
+        <div style="height:600px;">
             <div style="display: flex; flex-direction: column; align-items: center;">
-               <p class="Subtitle" style="position:relative; font-size: 5.7vw; color: #1b3bd9; 
+               <p class="Subtitle" style="position:absolute; font-size: 5.7vw; color: #1b3bd9; 
                 width: 95%; text-align: center; display: block; padding-bottom: 1vw;">ABOUT US</p>
-                <p class="Bodytext" style="position:relative; font-size: 2vw; color: #000f20; top: 35%; 
+                <p class="Bodytext" style="position:absolute; font-size: 2vw; color: #000f20; top: 35%; 
                 width: 70%; text-align: center; display: block; padding-bottom: 1vw;">For Real Communications is a student-run communications agency powered by QUT students, specialising in community-building and conversation-starting content and campaigns.</p>
-                 <p class="Bodytext" style="position:relative; font-size: 2vw; color: #000f20; top: 55%; 
+                 <p class="Bodytext" style="position:absolute; font-size: 2vw; color: #000f20; top: 55%; 
                 width: 65%; text-align: center; display: block; padding-bottom: 1vw;">We bring fresh thinking and creative confidence to help brands cut through the noise and make a real impact.</p>
-                 <p class="Bodytext" style="position:relative; font-size: 2vw; color: #000f20; top: 70%; 
+                 <p class="Bodytext" style="position:absolute; font-size: 2vw; color: #000f20; top: 70%; 
                 width: 70%; text-align: center; display: block; padding-bottom: 1vw;">For brands that want to keep it real — we’re For Real.</p>
             </div>
         </div>
         <!--section 2-->
-        <div style="height: 700px;">
-            <p class="Subtitle" style="position:relative; font-size: 5vw; color:#1b3bd9;
-                width: 95%; text-align: center; display: block; padding-bottom: 1vw; top: 10%;">Our Values</p>
+        <div style="height: 535px;">
             <div style="display: flex; flex-direction: row; align-items: center;">
+                <!--Our Values-->
+                <p class="Subtitle" style="position:absolute; font-size: 5vw; color:#1b3bd9; top: 78%;
+                width: 95%; text-align: center; display: block; padding-bottom: 1vw;">Our Values</p>
                 <!--Boxes-->
                 <div class="mycontainer" style="top: 20%;">
                     <div style="background-color:#b1d7ed;">
@@ -59,7 +71,7 @@
             </div>
         </div>
         <!--Section 3-->
-        <div style="height: 800px;">
+        <div style="height: 700px;">
             <div style="display: flex; flex-direction: row; align-items: center; height: 350px">
                 <div style="background-color:#1b3bd9; width: 500px; height: 300px; margin-left: 100px;"></div>
                 <div style="width: 40%; text-align: center; margin-left: 100px;">
@@ -76,24 +88,108 @@
             </div>
         </div>
         <!--Contact Us-->
-        <div style="height: 100px; background-color: #1b3bd9; width: 100%;">
+        <div style="height: 250px;">
             <div style="display: flex; flex-direction: row; align-items: center;">
-                <p class="Subtitle" style="color: #f4f4f4; font-size: 2.4vw; margin-left: 50px;">Contact Us</p>
-                <a href="https://www.instagram.com/forreal_comms/">
-                    <img src="sources/images/Instagram_logo.png" style="height: 3.4vw; margin-left: 50%;">
-                </a>
-                <a href="https://www.tiktok.com/@forreal_comms">
-                    <img src="sources/images/tiktok_logo.png"style="height: 4vw;margin-left: 70%;">
-                </a>
-                <a href="">
-                    <img src="sources/images/facebook_logo.png"style="height: 4vw;margin-left: 90%;">
-                </a>
-                <a href="https://au.linkedin.com/company/for-real-communications">
-                    <img src="sources/images/linkedin_logo.png" style="height: 4.2vw;margin-left: 110%;">
-                </a>
             </div>
         </div>
     </body>
+
+        <footer>
+        <div>
+            <div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%">
+            </div><div class="glitchbrick-floating" style="width: 4.5%; height: 4.5%; background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;">
+            </div><div class="glitchbrick-floating" style="width: 1%; height: 1%; background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 5%; height: 5%">
+            </div><div class="glitchbrick-floating" style="width: 1.5%; height: 1.5%">
+            </div><div class="glitchbrick-floating" style="width: 4%; height: 4%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;">
+            </div><div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 1%; height: 1%;">
+            </div><div class="glitchbrick-floating" style="width: 2%; height: 2%;">
+            </div><div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 1.5%; height: 1.5%;">
+            </div><div class="glitchbrick-floating" style="width: 3%; height: 3%;">
+            </div><div class="glitchbrick-floating" style="width: 4.5%; height: 4.5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 1%; height: 1%;">
+            </div><div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 4%; height: 4%;">
+            </div><div class="glitchbrick-floating" style="width: 2%; height: 2%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%;">
+            </div><div class="glitchbrick-floating" style="width: 1.5%; height: 1.5%;">
+            </div><div class="glitchbrick-floating" style="width: 5%; height: 5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 3%; height: 3%;">
+            </div><div class="glitchbrick-floating" style="width: 4.5%; height: 4.5%;">
+            </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 0.5%; height: 0.5%;">
+            </div><div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%;background-color: #f4f4f4;">
+            </div><div class="glitchbrick-floating" style="width: 2.5%; height: 2.5%;"></div>
+        </div>
+        <div>
+            <div class="glitchbrick" style="width: 3.5%; height: 22px; vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 4.5%; height: 13px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 2.5%; height: 16px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1%; height: 13px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 5%; height: 23px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1.5%; height: 30px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 4%; height: 18px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 2.5%; height: 13px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3.5%; height: 22px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1%; height: 8px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 2%; height: 21px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3.5%; height: 15px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1.5%; height: 19px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3%; height: 17px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 4.5%; height: 15px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1%; height: 10px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3.5%; height: 18px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 4%; height: 27px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 2%; height: 19px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3.5%; height: 25px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1.5%; height: 5px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 5%; height: 26px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3%; height: 12px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 4.5%; height: 19px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 2.5%; height: 27px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 0.5%; height: 18px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3.5%; height: 13px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 2.5%; height: 28px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 5%; height: 10px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3%; height: 33px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 1.5%; height: 22px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 4.5%; height: 15px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 0.5%; height: 25px;vertical-align: bottom;">
+            </div><div class="glitchbrick" style="width: 3.5%; height: 10px;vertical-align: bottom;">
+            </div>
+        </div>
+        <div class="Footer-body" style="padding-top: 5vw; 
+            padding-bottom: 2vw; align-content: center;">
+            <p class="Subtitle" style="color: #f4f4f4; 
+            padding: 0; margin: 0; padding-left: 1%; padding-top: 3%; 
+            font-size: 4vw; display: inline-block;">Contact Us</p>
+            <div style="display: inline-block; padding-left: 2%; vertical-align: top;">
+                <img class="logo-image" src="sources/images/facebook-logo.png" >
+                <a href="https://www.instagram.com/forreal_comms/" target="_blank">
+                    <img class="logo-image" src="sources/images/instagram-logo.png">
+                </a>
+                <a href="https://www.tiktok.com/@forreal_comms" target="_blank">
+                    <img class="logo-image" src="sources/images/tiktok logo.png">
+                </a>
+                <a href="https://www.linkedin.com/company/for-real-communications/" target="_blank">
+                    <img class="logo-image" src="sources/images/linkedin-logo.png">
+                </a>
+            </div>
+            <p class="normal-text" style="display: inline-block; 
+                font-size: 4vw; color: #f4f4f4; margin: 0; padding: 0;
+                padding-left: 1%;">
+                Email: forrealcomms@gmail.com</p>
+            <div>
+                <p class="normal-text" style="text-align: center;
+                 padding-top: 5%; color: #f4f4f4;">Founded in 2025</p>
+            </div>
+        </div>
+    </footer>
+
 <html>
 
 
@@ -196,5 +292,3 @@
         background-color:#1b3bd9; 
         border: 3px solid #1b3bd9;
     }
-
-</style>
