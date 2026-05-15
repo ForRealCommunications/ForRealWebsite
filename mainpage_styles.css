@@ -1,0 +1,255 @@
+
+    html{
+        background-color: #f4f4f4;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .image-text{
+        width: 97%;
+        text-align: center;
+        margin: 0 1.5%;
+    }
+
+    .image-text image{
+        width: 100%;
+        height: 80px; 
+    }
+
+    .Navigation-bar{
+        position: sticky;
+        z-index: 1000;
+        overflow: hidden;
+        top: 0; 
+        height: 80px;
+        background-color: #b1d7ed;
+        display: block;
+        text-decoration: none;
+    }
+
+    .link-font{
+        color: black;
+        display: inline-block; 
+        padding: 1vw;
+        font-family: 'Host Grotesk'; 
+        font-size: 3vw;
+        font-weight: bold;
+        position: absolute;
+        align-items: center; 
+    }
+    
+.nav-container{
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 2%;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+}
+
+    .Starting-head{
+        position: static;
+        height: 80dvw;
+        background-color: #1b3bd9;
+
+    }
+
+    .Footer-body{
+        position: static;
+        background-color: #1b3bd9;
+    }
+
+    .Subtitle{
+        font-family: "Host Grotesk";
+        font-weight: bold;
+    }
+
+    .normal-text{
+        font-family: 'Space Grotesk';
+    }
+
+    .glitchbrick{
+        position: relative;
+        background-color: #1b3bd9;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+        padding: 0;        
+    }
+
+    .glitchbrick-floating{
+        position: relative;
+        background-color: #1b3bd9;
+        display: inline-block;
+        vertical-align: top;
+        margin: 1%;
+        padding: 1%;        
+    }
+
+    .services-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+
+        gap: 4vw;
+
+        flex-wrap: nowrap;
+
+        width: 100%;
+
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+
+    .service-card{
+        position: relative;
+        display: inline-block;
+
+        width: 25%;
+        height: 40vw;
+
+        margin: 3%;
+    }
+
+    .Service-boxes{
+        position: relative;
+
+        background-color: #1b3bd9;
+
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        z-index: 10;
+        box-sizing: border-box;
+
+        padding: 2vw;
+    }
+
+    .glitch-red{
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: red;
+
+        top: 12px;
+        left: 12px;
+
+        z-index: 1;
+    }
+
+    .glitch-blue{
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+
+        background-color: lightblue;
+
+        top: -12px;
+        left: -12px;
+
+        z-index: 0;
+    }
+
+    .Box-font{
+        font-family: 'Space Grotesk';
+        font-size: 3vw;
+        text-align: center;
+        position: relative;
+        color: #f4f4f4;
+    }
+
+    .contact-button{
+        background-color: #b1d7ed;
+        color: #1b3bd9;
+    }
+
+
+    .watermark-image{
+        width: 8vw;
+        height: 8vw;
+
+        min-width: 50px;
+        min-height: 50px;
+
+        object-fit: contain;
+
+        flex-shrink: 0;
+        animation: blinkeffect 10s infinite alternate;
+    }
+
+    .logo-image{
+        display: inline-block;
+        width: 8vw;
+        height: 8vw;
+
+        margin: 1vw;
+    }
+
+    .watermark-container{
+        width: 100%;
+
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: column;
+
+        gap: 2vw;
+    }
+
+    .watermark-row{
+        display: flex;
+
+        justify-content: center;
+
+        gap: 2vw;
+
+        flex-wrap: nowrap;
+    }
+
+    .row-2{
+    margin-left: 10vw;
+    }
+
+
+
+    @keyframes blinkeffect{
+     0%, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%{
+        opacity: 100%;
+     }
+     2.5%, 12.5%, 22.5%,32.5%, 42.5%,52.5%, 62.5%, 72.5%, 82.5%, 92.5%{
+        opacity: 50%;
+     }
+    5%, 15%, 25%,35%, 45%,55%, 65%, 75%, 85%, 95%{
+        opacity: 0%;
+     }
+    7.5%, 17.5%, 27.5%,37.5%, 47.5%,57.5%, 67.5%, 77.5%, 87.5%, 97.5%{
+        opacity: 50%;
+     }
+        
+    }
+
+
+
+    html, body {
+    margin: 0;
+    padding: 0;
+    }   
+
+
