@@ -1,21 +1,3 @@
-
-
-/*.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 10px;
-    padding-bottom: 10%;
-    justify-content: space-evenly;
-}
-
-.container div {
-    padding: 5px;
-    margin:auto;
-    font-size: 30px;
-    text-align: center;
-    align-items: center;
-} */
-
 .container {
     display: grid;
 
