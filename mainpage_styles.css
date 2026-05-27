@@ -21,7 +21,7 @@
     .Navigation-bar{
         position: sticky;
         z-index: 1000;
-        overflow: hidden;
+        /*overflow: hidden;*/
         top: 0; 
         height: 80px;
         background-color: #b1d7ed;
@@ -32,11 +32,10 @@
     .link-font{
         color: black;
         display: inline-block; 
-        padding: 1vw;
+        padding: 10px;
         font-family: 'Host Grotesk'; 
-        font-size: 3vw;
+        font-size: 22px;
         font-weight: bold;
-        position: absolute;
         align-items: center; 
     }
     
@@ -45,7 +44,6 @@
 
     display: flex;
     align-items: center;
-    justify-content: space-between;
 
     padding: 0 2%;
 }
@@ -53,14 +51,13 @@
 .nav-links{
     display: flex;
     align-items: center; 
-    gap: 40px;
+    gap: 80px;
 }
 
     .Starting-head{
         position: static;
-        height: 80dvw;
+        height: 55dvw;
         background-color: #1b3bd9;
-
     }
 
     .Footer-body{
@@ -68,14 +65,39 @@
         background-color: #1b3bd9;
     }
 
+     .Headtitle{
+        font-family: "Host Grotesk";
+        font-weight: bold;
+        font-size: 100px; 
+        color: #1b3bd9; 
+        width: 100%; 
+        text-align: center; 
+        display: block; 
+    }
+
+
+    .Title {
+        font-family: "Host Grotesk";
+        font-weight: bold;
+        font-size: 6vw; 
+        color:#1b3bd9;
+        width: 100%; 
+        text-align: center; 
+        display: block; 
+    }
+
     .Subtitle{
         font-family: "Host Grotesk";
         font-weight: bold;
+        font-size: 35px; 
+        color: #000f20;
     }
 
-    .normal-text{
-        font-family: 'Space Grotesk';
-    }
+    .Bodytext{
+        font-family: "Host Grotesk";
+        font-size: 25px; 
+        color: #000f20;
+    }   
 
     .glitchbrick{
         position: relative;
@@ -96,28 +118,32 @@
     }
 
     .services-wrapper{
-        display: flex;
-        justify-content: center;
-        align-items: stretch;
+    display: grid;
 
-        gap: 4vw;
+    grid-template-columns: repeat(3, 1fr);
 
-        flex-wrap: nowrap;
+    gap: 50px;
 
-        width: 100%;
+    width: 100%;
 
-        margin-top: 5vw;
-        margin-bottom: 10vw;
+    padding: 5%;
+
+    box-sizing: border-box;
+    }
+
+    @media (max-width: 700px){
+        .services-wrapper{
+            grid-template-columns: 1fr;
+        }
     }
 
     .service-card{
-        position: relative;
-        display: inline-block;
+    position: relative;
 
-        width: 25%;
-        height: 40vw;
+    width: 100%;
+    height: 200px;
 
-        margin: 3%;
+    margin: 0;
     }
 
     .Service-boxes{
@@ -168,11 +194,13 @@
     }
 
     .Box-font{
-        font-family: 'Space Grotesk';
-        font-size: 3vw;
-        text-align: center;
-        position: relative;
-        color: #f4f4f4;
+    font-family: 'Space Grotesk';
+
+    font-size: clamp(20px, 2vw, 36px);
+
+    text-align: center;
+
+    color: #f4f4f4;
     }
 
     .contact-button{
@@ -196,8 +224,8 @@
 
     .logo-image{
         display: inline-block;
-        width: 8vw;
-        height: 8vw;
+        width: 5vw;
+        height: 5vw;
 
         margin: 1vw;
     }
@@ -221,12 +249,56 @@
         gap: 2vw;
 
         flex-wrap: nowrap;
+
+        background-color: #1b3bd9;
     }
 
-    .row-2{
-    margin-left: 10vw;
-    }
 
+    .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #b1d7ed;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 160px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: #fff;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #1b3bd9;
+}
 
 
     @keyframes blinkeffect{

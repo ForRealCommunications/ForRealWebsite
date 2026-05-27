@@ -1,4 +1,36 @@
+     .Headtitle{
+        font-family: "Host Grotesk";
+        font-weight: bold;
+        font-size: 100px; 
+        color: #1b3bd9; 
+        width: 95%; 
+        text-align: center; 
+        display: block; 
+    }
 
+
+    .Title {
+        font-family: "Host Grotesk";
+        font-weight: bold;
+        font-size: 95px; 
+        color:#1b3bd9;
+        width: 100%; 
+        text-align: center; 
+        display: block; 
+    }
+    
+    .Subtitle{
+        font-family: "Host Grotesk";
+        font-weight: bold;
+        font-size: 35px; 
+        color: #000f20;
+    }
+
+    .Bodytext{
+        font-family: "Host Grotesk";
+        font-size: 25px; 
+        color: #000f20;
+    }   
 
 /*.container {
     display: grid;

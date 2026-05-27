@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>For Real Communications</title>
+        <title>For Real Communications About Us</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" 
@@ -13,57 +13,116 @@
     </head>
     <body>
         <!--Navigation System - Ensure it's the same in all Pages-->
-        <nav class="Navigation-bar" style="border: 1px, solid, #1b3bd9; 
+        <nav class="Navigation-bar" style="border: 3.5px, solid, #1b3bd9; 
         border-top: #b1d7ed; border-left: #b1d7ed; border-right: #b1d7ed;">
             <div class="nav-container"> 
                 <!--Header Logo (Clickable to go Home)-->
                 <a href="mainpage.html">
                     <img src="sources/images/blue-small-logo.png" style="height: 80px; padding-left: 1%;">
                 </a>
-                <div class="nav-links">
-                    <a class="link-font" style="left: 27%" href="aboutus_page.html">About Us</a>
-                    <a class="link-font" style="left: 45%" href="client_page.html">Our Clients</a>
-                    <a class="link-font" style="left: 67%" href="teampage.html">Our Team</a>
+                <div class="dropdown">
+                    <button class="dropbtn">⬤ ⬤ ⬤</button>
+                    <div class="dropdown-content">
+                        <a class="link-font" href="mainpage.html">Home</a>
+                        <a class="link-font" href="aboutus_page.html">About Us</a>
+                        <a class="link-font" href="client_page.html">Our Clients</a>
+                        <a class="link-font" href="teampage.html">Our Team</a>
+                    </div>
                 </div>
-                <!--Other links-->
+                <div style="width: 80px"></div>
             </div>   
         </nav>
-        <!--Introduction-->
-        <div>s
-            <div style="display: flex; flex-direction: column;  text-align: center; max-width: 1024px; align-items: center; margin: 0 auto;">
-                <p class="Headtitle">ABOUT US</p>
-                <p class="Bodytext" style="font-size: 2vw;">For Real Communications is a student-run communications agency powered by QUT students, specialising in community-building and conversation-starting content and campaigns.</p>
-                <p class="Bodytext" style="font-size: 2vw;">Combining cultural fluency, creative confidence, and fresh thinking we cut through the noise and make a real impact.</p>
-                <p class="Bodytext" style="font-size: 2vw;">For brands that want to keep it real — we’re For Real.</p>
-            </div>
-        </div>
-        <!--Our Values-->
-        <div>
-            <div style="display: flex; flex-direction: column; align-items: center; min-width: 200px;">
-                <!--Our Values-->
-                <p class="Title">Our Values</p>
-                <!--Boxes-->
-                <div class="columncontainer">
-                    <div class="bluecolumn">
-                        <h2 class="Subtitle">Real Talk</h2>
-                        <p class="Bodytext">We craft solutions that are grounded in lived experience. We stay honest – with our work, our team and in our relationships with clients.</p>
-                    </div>
-                    <div class="bluecolumn">
-                        <h2 class="Subtitle">Fresh Creativity</h2>
-                        <p class="Bodytext">We keep ideas fresh and electric. We usher in bold perspectives and encourage experimentation to create high-quality content, stories, and campaigns.</p>
-                    </div>
-                    <div class="bluecolumn">
-                        <h2 class="Subtitle">Express Confidence</h2>
-                        <p class="Bodytext">Confidence is built, not given. At For Real, we lead with energy and humble conviction by trusting our ideas and backing them with action.</p>
-                    </div>
-                    <div class="bluecolumn">
-                        <h2 class="Subtitle">Cultural Connectivity</h2>
-                        <p class="Bodytext">Culture comes from us, not at us. We tap into what’s now and what’s next — blending digital fluency with cultural insight to craft work that connects.</p>
-                    </div>
-                </div>
+
+        <div class="watermark-container">
+            <div class="watermark-row row-1">
+                <img class="watermark-image" src="sources/images/red-watermark.png">
+                <img class="watermark-image" src="sources/images/blue-watermark.png">
+                <img class="watermark-image" src="sources/images/white-watermark.png">
+                <img class="watermark-image" src="sources/images/red-watermark.png">
+                <img class="watermark-image" src="sources/images/blue-watermark.png">
+                <img class="watermark-image" src="sources/images/white-watermark.png">
+                <img class="watermark-image" src="sources/images/red-watermark.png">
+                <img class="watermark-image" src="sources/images/blue-watermark.png">
+                <img class="watermark-image" src="sources/images/white-watermark.png">
+                <img class="watermark-image" src="sources/images/red-watermark.png">
+                <img class="watermark-image" src="sources/images/blue-watermark.png">
+                <img class="watermark-image" src="sources/images/white-watermark.png">
             </div>
         </div>
 
+        <!--Introduction-->
+        <div>
+            <div style="display: flex; flex-direction: column;  text-align: center; max-width: 1024px; align-items: center; margin: 0 auto;">
+                <p class="Headtitle">ABOUT US</p>
+                <div style="padding: 5%; padding-top: 0; padding-bottom: 0;">
+                    <p class="Bodytext" style="font-size: 25px;">For Real Communications is a student-run communications agency powered by QUT students, specialising in community-building and conversation-starting content and campaigns.</p>
+                    <p class="Bodytext" style="font-size: 25px;">Combining cultural fluency, creative confidence, and fresh thinking we cut through the noise and make a real impact.</p>
+                    <p class="Bodytext" style="font-size: 25px;">For brands that want to keep it real — we’re For Real.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!--Our Values-->
+        <div>
+            <div style="display: flex; flex-direction: column; align-items: center; min-width: 250px;">
+                <!--Our Values-->
+                <p class="Title">Our Values</p>
+
+                <!--Boxes-->
+                <div style="padding-right: 5%; padding-left: 5%; padding-bottom: 5%;">
+                <div class="columncontainer">
+                    <div class="columnflex">
+                        <div class="glitchcolumn-lightblue"></div>
+                        <div class="glitchcolumn-red"></div>
+                        <div class="glitchcolumn-blue">
+                            <div style="display: flex; flex-direction: column; justify-content: center; height: 100px;">
+                                <h2 class="Subtitle" style="color: #f4f4f4;">Real Talk</h2>
+                            </div>
+                            <div>
+                                <p class="Bodytext" style="color: #f4f4f4;">We craft solutions that are grounded in lived experience. We stay honest – with our work, our team and in our relationships with clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columnflex">
+                        <div class="glitchcolumn-lightblue"></div>
+                        <div class="glitchcolumn-red"></div>
+                        <div class="glitchcolumn-blue">
+                            <div style="display: flex; flex-direction: column; justify-content: center; height: 100px;">
+                                <h2 class="Subtitle" style="color: #f4f4f4;">Fresh Creativity</h2>
+                            </div>
+                            <div>
+                                <p class="Bodytext" style="color: #f4f4f4;">We keep ideas fresh and electric. We usher in bold perspectives and encourage experimentation to create high-quality content, stories, and campaigns.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columnflex">
+                        <div class="glitchcolumn-lightblue"></div>
+                        <div class="glitchcolumn-red"></div>
+                        <div class="glitchcolumn-blue">
+                            <div style="display: flex; flex-direction: column; justify-content: center; height: 100px;">
+                                <h2 class="Subtitle" style="color: #f4f4f4;">Express Confidence</h2>
+                            </div>
+                            <div>
+                                <p class="Bodytext" style="color: #f4f4f4;">Confidence is built, not given. At For Real, we lead with energy and humble conviction by trusting our ideas and backing them with action.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="columnflex">
+                        <div class="glitchcolumn-lightblue"></div>
+                        <div class="glitchcolumn-red"></div>
+                        <div class="glitchcolumn-blue">
+                            <div style="display: flex; flex-direction: column; justify-content: center; height: 100px;">
+                                <h2 class="Subtitle" style="color: #f4f4f4;">Cultural Connectivity</h2>
+                            </div>
+                            <div>
+                                <p class="Bodytext" style="color: #f4f4f4;">Culture comes from us, not at us. We tap into what’s now and what’s next — blending digital fluency with cultural insight to craft work that connects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
         <!--Mission & Vision-->
         <div style="width: 100%;">
             <div style="max-width: 1024px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px;">
@@ -73,26 +132,27 @@
                         <img src="sources/images/Grouptalk_Photo.png" style="width:100%"></img>
                     </div>
                     <div style="flex-basis: 0; flex-grow:1; flex-shrink: 1; text-align: center; min-width: 320px;">
-                        <p class="Subtitle" style="font-size: 3.2vw; color: #cb000a;">Our Mission</p>
+                        <p class="Subtitle" style="font-size: 40px; color: #cb000a;">Our Mission</p>
                         <p class="Bodytext">Powered by the bold creativity of QUT students, For Real is a not-for-profit agency helping local businesses cut through the noise and become a part of the conversation.</p>
                     </div>    
                 </div>
 
                 <!--row 2-->
-                <div style="display: flex; flex-direction: row; align-items: center;">
-                    <div style="flex-basis: 0;  flex-grow:1; flex-shrink: 1; text-align: center;">
-                        <p class="Subtitle" style="font-size: 3.2vw; color: #cb000a; ">Our Vision</p>
+                <div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 5vw">
+                    <div style="flex-basis: 0;  flex-grow:1; flex-shrink: 1; text-align: center; min-width: 320px;">
+                        <p class="Subtitle" style="font-size: 40px; color: #cb000a; ">Our Vision</p>
                         <p class="Bodytext">Creatively connecting businesses with communities to push culture forward.</p>
                     </div>
-                    <div class="flex-basis: 0;  flex-grow:1; flex-shrink: 1; ">
-                        <img src="sources/images/" style="width:100%"></div>
+                    <div style="flex-basis: 0;  flex-grow:1; flex-shrink: 1; min-width: 320px;">
+                        <img src="sources/images/Grouptable_photo.png" style="width:100%">
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </body>
 
-        <footer>
+    <footer>
         <div>
             <div class="glitchbrick-floating" style="width: 3.5%; height: 3.5%">
             </div><div class="glitchbrick-floating" style="width: 4.5%; height: 4.5%; background-color: #f4f4f4;">
@@ -162,27 +222,27 @@
         </div>
         <div class="Footer-body" style="padding-top: 5vw; 
             padding-bottom: 2vw; align-content: center;">
-            <p class="Subtitle" style="color: #f4f4f4; 
+            <p class="Bodytext" style="color: #f4f4f4; 
             padding: 0; margin: 0; padding-left: 1%; padding-top: 3%; 
-            font-size: 4vw; display: inline-block;">Contact Us</p>
+            font-size: 40px; display: inline-block;">Contact Us</p>
             <div style="display: inline-block; padding-left: 2%; vertical-align: top;">
-                <img class="logo-image" src="sources/images/facebook-logo.png" >
+                <img class="logo-image" src="sources/images/facebook-logo.png" style="height: 80px; width: 80px;">
                 <a href="https://www.instagram.com/forreal_comms/" target="_blank">
-                    <img class="logo-image" src="sources/images/instagram-logo.png">
+                    <img class="logo-image" src="sources/images/instagram-logo.png" style="height: 70px; width: 70px;">
                 </a>
                 <a href="https://www.tiktok.com/@forreal_comms" target="_blank">
-                    <img class="logo-image" src="sources/images/tiktok logo.png">
+                    <img class="logo-image" src="sources/images/tiktok logo.png" style="height: 80px; width: 80px;">
                 </a>
                 <a href="https://www.linkedin.com/company/for-real-communications/" target="_blank">
-                    <img class="logo-image" src="sources/images/linkedin-logo.png">
+                    <img class="logo-image" src="sources/images/linkedin-logo.png" style="height: 84px; width: 84px;">
                 </a>
             </div>
-            <p class="normal-text" style="display: inline-block; 
-                font-size: 4vw; color: #f4f4f4; margin: 0; padding: 0;
+            <p class="Bodytext" style="display: inline-block; 
+                font-size: 20px; color: #f4f4f4; margin: 0; padding: 0;
                 padding-left: 1%;">
                 Email: forrealcomms@gmail.com</p>
             <div>
-                <p class="normal-text" style="text-align: center;
+                <p class="Bodytext" style="text-align: center;
                  padding-top: 5%; color: #f4f4f4;">Founded in 2025</p>
             </div>
         </div>
