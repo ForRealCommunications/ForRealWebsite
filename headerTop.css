@@ -1,0 +1,31 @@
+.watermark-track {
+    display: flex;
+    width: max-content;
+    animation: scroll-watermarks 20s linear infinite;
+}
+
+.watermark-group {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    flex-shrink: 0;
+    padding-right: 3vw;
+}
+
+.watermark-image {
+    width: clamp(50px, 8vw, 100px);
+    height: auto;
+    flex-shrink: 0;
+
+    animation: blinkeffect 10s infinite alternate;
+}
+
+@keyframes scroll-watermarks {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
