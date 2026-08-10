@@ -39,9 +39,13 @@
 
 
 /* ABOUT US */
+.values-row > div {
+    display: flex;
+}
+
 .values-card {
+    width: 100%;
     height: 100%;
-    min-height: 0;
 }
 
 .values-card .glitch-box {
@@ -50,15 +54,16 @@
     box-sizing: border-box;
 }
 
+.value-text {
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.35;
+}
+
 .value-title {
     font-size: clamp(1.3rem, 2vw, 1.6rem);
     margin-bottom: 2rem;
-}
-
-.value-text {
-    font-size: clamp(1rem, 1.5vw, 1.25rem);
-    line-height: 1.35;
-    margin: 0;
 }
 
 .values-card .glitch-red {

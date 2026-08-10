@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>For Real Communication HOME</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,7 +31,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav mx-auto">
             <a class="nav-link active bodytext fs-5 mx-3" aria-current="page" href="index.html"
               style="color: #1b3bd9;">Home</a>
             <a class="nav-link bodytext fs-5 mx-3" href="aboutUs.html" style="color: #000f20;">About Us</a>
@@ -43,8 +44,8 @@
 
     <div class="container-fluid" style="padding-top: 120px; background-color: #1b3bd9;">
       <div class="row justify-content-center align-items-center">
-        <div class="col-10 gap-1 text-center">
-          <img src="sources/images/white-full-logo.png" class="img-fluid w-100">
+        <div class="col-12 text-center">
+          <img src="sources/images/white-full-logo.png" class="img-fluid logo">
         </div>
       </div>
       <div class="row justify-content-center align-items-center">
@@ -300,3 +301,14 @@
 </body>
 
 </html>
+
+
+
+<style>
+  .logo {
+    width: clamp(300px, 80vw, 1200px);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+</style>
