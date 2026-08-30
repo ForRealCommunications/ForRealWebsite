@@ -39,7 +39,7 @@
 
 
 /* ABOUT US */
-.values-row > div {
+.values-row>div {
     display: flex;
 }
 
@@ -54,16 +54,20 @@
     box-sizing: border-box;
 }
 
-.value-text {
-    margin-top: auto;
-    margin-bottom: 0;
-    font-size: clamp(1rem, 1.5vw, 1.25rem);
-    line-height: 1.35;
-}
-
 .value-title {
     font-size: clamp(1.3rem, 2vw, 1.6rem);
-    margin-bottom: 2rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.value-text {
+    margin: 0;
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.35;
 }
 
 .values-card .glitch-red {
@@ -77,20 +81,35 @@
 }
 
 
+/* Larger screens */
+@media (min-width: 768px) {
+    .value-title {
+        min-height: 2.4em;
+    }
+}
+
 /* Medium */
 @media (min-width: 768px) and (max-width: 991px) {
+
+    .value-title {
+        margin-bottom: 0.5rem;
+        min-height: 2.4em;
+    }
 
     .values-card .glitch-box {
         padding: 1.5rem 1rem;
     }
 }
 
-
 /* Small */
 @media (max-width: 767px) {
 
     .values-card .glitch-box {
         padding: 1.25rem 1rem;
+    }
+
+    .value-title {
+        margin-bottom: 1rem;
     }
 
     .values-card .glitch-red {
@@ -104,7 +123,7 @@
     }
 }
 
-.values-row > div {
+.values-row>div {
     display: flex;
 }
 
