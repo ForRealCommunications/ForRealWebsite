@@ -320,6 +320,11 @@
 
         if (params.get("success") === "true") {
             document.getElementById("successMessage").style.display = "block";
+            document.getElementById("successMessage");
+            message.style.display = "block";
+            message.scrollIntoView({
+            behavior: "smooth",
+            block: "center"});
         }
     </script>
 </body>
