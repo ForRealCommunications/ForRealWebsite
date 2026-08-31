@@ -168,7 +168,8 @@
             <input type="hidden" name="_subject" value="New For Real Communications Enquiry">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://forrealcommunications.github.io/ForRealWebsite/contact.html?success=true">
+            <input type="hidden" name="_next"
+                value="https://forrealcommunications.github.io/ForRealWebsite/contact.html?success=true">
 
             <!-- Name -->
             <div class="fs-field mb-3">
@@ -319,11 +320,14 @@
         const params = new URLSearchParams(window.location.search);
 
         if (params.get("success") === "true") {
-            document.getElementById("successMessage");
+            const message = document.getElementById("successMessage");
+
             message.style.display = "block";
+
             message.scrollIntoView({
-            behavior: "smooth",
-            block: "center"});
+                behavior: "smooth",
+                block: "center"
+            });
         }
     </script>
 </body>

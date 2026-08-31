@@ -114,7 +114,8 @@
             <input type="hidden" name="_subject" value="New For Real Communications Application">
             <input type="hidden" name="_template" value="table">
             <input type="hidden" name="_captcha" value="true">
-            <input type="hidden" name="_next" value="https://forrealcommunications.github.io/ForRealWebsite/application.html?success=true">
+            <input type="hidden" name="_next"
+                value="https://forrealcommunications.github.io/ForRealWebsite/application.html?success=true">
 
             <!-- Name -->
             <div class="fs-field mb-3">
@@ -148,8 +149,8 @@
                     Upload your Resume
                 </label>
 
-                <input type="file" class="fs-input form-control file-upload" id="resume" name="resume" accept=".pdf,.doc,.docx"
-                    required>
+                <input type="file" class="fs-input form-control file-upload" id="resume" name="resume"
+                    accept=".pdf,.doc,.docx" required>
             </div>
 
             <!-- Submit -->
@@ -255,18 +256,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
-    
-        <!-- Checks if the email is sucessful or not -->
+
+    <!-- Checks if the email is sucessful or not -->
     <script>
         const params = new URLSearchParams(window.location.search);
 
-        if (params.get("successMessage") === "true") {
-            document.getElementById("successMessage");
+        if (params.get("success") === "true") {
+            const message = document.getElementById("successMessage");
+
             message.style.display = "block";
+
             message.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
+                behavior: "smooth",
+                block: "center"
+            });
         }
     </script>
 </body>
