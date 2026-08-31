@@ -260,7 +260,7 @@
     <script>
         const params = new URLSearchParams(window.location.search);
 
-        if (params.get("success") === "true") {
+        if (params.get("successMessage") === "true") {
             document.getElementById("successMessage");
             message.style.display = "block";
             message.scrollIntoView({
